@@ -27,5 +27,42 @@
     font-style: normal;
     font-display: swap;
 }
-
-
+.header{
+    background-color: white;
+    box-sizing: border-box;
+    height: 100px;
+    -webkit-box-shadow: 0 4px 0 0 #9a9a9a;
+    box-shadow: 0 4px 0 0 #9a9a9a;
+}
+.header_div{
+    width: 910px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo{
+    margin: 19px 0;
+    text-decoration: none;
+}
+.header_facebook_logo{
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: #ac1f28;
+    font-size: 26px;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 42px;
+    text-align: center;
+    margin: 33px 0 26px;
+    transition: 0.3s;
+}
+.header_facebook_logo:hover{
+    background-color: #4267b2;
+    transform: scale(1.05);
+}
+.main_sec{
+    background-image: ;
+}
