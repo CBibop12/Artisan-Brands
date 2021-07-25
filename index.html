@@ -5,32 +5,92 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Artisan Brands</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header class="header">
-    <div class="container header_div">
-        <a href="#" class="header_logo">
-            <img src="images/Logo.png" alt="Artisan brands">
+<header>
+    <div class="container d-flex">
+        <a href="#">
+            <img src="images/Logo.png" alt="" class="logo">
         </a>
-        <a href="#" class="header_facebook_logo">
+        <a href="#" class="facebook_logo">
             <i class="fab fa-facebook-f"></i>
         </a>
     </div>
 </header>
 <section class="main_sec">
-    <div class="container main_sec_div">
-        <div class="main_sec_sec">
-            <h2 class="main_sec_h2">
+    <div class="container">
+        <div class="first_block">
+            <h2>
                 Welcome
             </h2>
-            <p class="main_sec_sec_p">
-                Sed eu augue sem. Sed sed vestibulum nulla. In nec lorem diam, sed aliquam turpis. Fusce magna urna, tincidunt nec rutrum sed, porttitor ut neque. Donec varius ligula a neque pellentesque blandit. Pellentesque justo lectus, porta eu adipiscing ac, iaculis nec dolor. Aliquam nec sodales tellus. Proin sed felis ac nisi molestie lobortis. Sed eu augue sem. Sed sed vestibulum nulla. In nec
-            </p>
+            <div class="d-flex">
+                <div>
+                    <p class="text">
+                        Sed eu augue sem. Sed sed vestibulum nulla. In nec lorem diam, sed aliquam turpis. Fusce magna urna, tincidunt nec rutrum sed, porttitor ut neque. Donec varius ligula a neque pellentesque blandit. Pellentesque justo lectus, porta eu adipiscing ac, iaculis nec dolor. Aliquam nec sodales tellus. Proin sed felis ac nisi molestie lobortis. Sed eu augue sem. Sed sed vestibulum nulla. In nec
+                    </p>
+                </div>
+                <div class="arrows">
+                    <div class="fa-chevron-1"><i class="fas fa-chevron-up"></i></div>
+                    <div class="fa-chevron-2"><i class="fas fa-chevron-down"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="second_block">
+            <h2>
+                Contact Us
+            </h2>
+            <form class="form" action="" method="post">
+                <label>
+                    <input type="text" class="form_input" placeholder="First Name">
+
+                </label>
+                <label>
+                    <input type="text" class="form_input" placeholder="Last Name">
+
+                </label>
+                <label>
+                    <input type="number" class="form_input" placeholder="Telephone Number">
+
+                </label>
+                <label>
+                    <input type="email" class="form_input" placeholder="Email Address">
+
+                </label>
+                <div class="d-flex">
+                    <label>
+                        <input type="text" placeholder="Code" class="form_input code">
+                    </label>
+                    <img src="images/code.png" alt="" class="code_img">
+                    <button class="button">Send</button>
+                </div>
+            </form>
+        </div>
+        <div class="icons">
+            <a href="#">
+                <img src="images/la_quemada.png" alt="" class="icon_1">
+            </a>
+            <a href="#">
+                <img src="images/copa_imperial.png" alt="" class="icon_2">
+            </a>
+            <a href="#">
+                <img src="images/cr.png" alt="" class="icon_3">
+            </a>
+            <a href="#">
+                <img src="images/bonfun.png" alt="" class="icon_4">
+            </a>
         </div>
     </div>
 </section>
-<script src="https://kit.fontawesome.com/82d5ee9c92.js" crossorigin="anonymous"></script>
+<footer>
+    <div class="footer_div">
+        <h4 class="footer_h4">
+            2013 Artisan Brands - All Rights Reserved
+        </h4>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/82d5ee9c92.js" crossorigin="anonymous">
+</script>
 </body>
 </html>
